@@ -80,6 +80,10 @@ footer a{
     vertical-align: middle;
 }
 
+.magGlass, .search-mic{
+    margin-top:8px;
+}
+
 .bottom-right-nav{
     display: grid;
     justify-items: end;
@@ -89,5 +93,56 @@ footer a{
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    margin-top:174px;
 }
 
+.search-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+    border:1px solid #d1d1d1;
+    justify-items: center;
+    align-content: center;
+    margin-top:20px;
+}
+
+#search{
+width: 400px;
+height: 30px;
+border: 0px solid;
+}
+
+#search:focus {
+    outline: none;
+}
+
+.search-bar:hover{
+    box-shadow: 3px 6px 7px -3px #ccc;
+}
+
+.formButtons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.googleSearch, .lucky{
+    margin-top: 30px;
+    width:121px;
+    height: 34px;
+    background-color: #;
+    border: 0px solid;
+    outline: none;
+}
+
+.googleSearch{
+    position: relative;
+    left: 52px;
+}
+
+.lucky{
+    position: relative;
+    left:-59px;
+}
